@@ -1,4 +1,6 @@
 const prices = [2,1,2,1,0,1,2]
+
+
 var maxProfit = function(prices) {
     let [maxprofit, buy] = [0,0]
     for(let sell =1;sell<prices.length;sell++){
@@ -11,7 +13,7 @@ var maxProfit = function(prices) {
 };
 
 
-//time complexity O(n^2)  memory O(1)
+// time complexity O(n^2)  memory O(1)
 // var maxProfit = function(prices) {
 //     let max_profit = 0;
 //     for(let i =0;i<prices.length;i++){
